@@ -54,3 +54,9 @@
 .checkbox-label {
     margin-right: 10px;
 }
+
+#etc {
+    text-align: center;
+    font-weight: bold;
+    color: darkgrey;
+}

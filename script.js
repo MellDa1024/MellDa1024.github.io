@@ -105,9 +105,19 @@ $(document).ready(() => {
         tempElement.remove();
     }
 
+    function etcSetting() {
+        var now = new Date();
+        var soonoong = new Date("2024-11-14");
+        var diff = soonoong.getTime() - now.getTime();
+        var left = Math.floor(diff / 86400000 + 1);
+
+        $("#etc").text('2025학년도 대학수학능력시험까지 D-' + left);
+        $("#etc").append('<div id="etc">정수씨 화이팅!!</div>');
+    }
     $("#search-bar").on("input", filterAndDisplayCopypastas);
 
     $(".checkbox-container").on("change", "input", filterAndDisplayCopypastas);
 
+    etcSetting();
     loadCategories();
 });
