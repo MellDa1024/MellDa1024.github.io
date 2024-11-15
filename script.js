@@ -111,8 +111,7 @@ $(document).ready(() => {
         var diff = soonoong.getTime() - now.getTime();
         var left = Math.floor(diff / 86400000 + 1);
 
-        $("#etc").text('2025학년도 대학수학능력시험까지 D-' + left);
-        $("#etc").append('<div id="etc">정수씨 화이팅!!</div>');
+        $("#etc").text('정수씨의 대학 합격을 응원한다에요');
     }
     $("#search-bar").on("input", filterAndDisplayCopypastas);
 
