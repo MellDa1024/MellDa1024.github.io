@@ -106,11 +106,6 @@ $(document).ready(() => {
     }
 
     function etcSetting() {
-        var now = new Date();
-        var soonoong = new Date("2024-11-14");
-        var diff = soonoong.getTime() - now.getTime();
-        var left = Math.floor(diff / 86400000 + 1);
-
         $("#etc").text('정수씨의 대학 합격을 응원한다에요');
     }
     $("#search-bar").on("input", filterAndDisplayCopypastas);
