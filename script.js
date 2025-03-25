@@ -106,7 +106,7 @@ $(document).ready(() => {
     }
 
     function etcSetting() {
-        $("#etc").text('정수씨의 대학 합격을 응원한다에요');
+        $("#etc").text('숭실대 25학번 정수씨 화이팅!!');
     }
     $("#search-bar").on("input", filterAndDisplayCopypastas);
 
